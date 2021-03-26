@@ -39,6 +39,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open",
     "heroku-postbuild": "webpack --config webpack.prod.js"
+    
   },
   "repository": {
     "type": "git",
@@ -49,5 +50,6 @@
   "bugs": {
     "url": "https://github.com/sanjay1626/Exquisite-Corpse-Sound-Bath-/issues"
   },
-  "homepage": "https://github.com/sanjay1626/Exquisite-Corpse-Sound-Bath-#readme"
+  "homepage": "."
 }
+

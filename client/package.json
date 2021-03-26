@@ -38,9 +38,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open",
-    "heroku-postbuild": "webpack --config webpack.prod.js"
-    
-  },
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanjay1626/Exquisite-Corpse-Sound-Bath-.git"
